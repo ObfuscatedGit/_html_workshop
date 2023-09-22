@@ -1,13 +1,17 @@
 <!-- GET request /test/demo_form.php?name1=value1&name2=value2 -->
 <!-- specific GET request /test/demo_form.php?stname=name&sname=sname&age=age&stid=stid&faculty=faculty -->
-<!-- POST request example
-POST /test/demo_form.php HTTP/1.1
-Host: w3schools.com
 
-name1=value1&name2=value2 
--->
-<!-- POST /test/demo_form.php HTTP/1.1
-Host: w3schools.com
+<!-- POST JSON format request example
+POST /echo/post/json HTTP/1.1
+Host: reqbin.com
+Accept: application/json
+Content-Type: application/json
+Content-Length: 81
 
-stname=name&sname=sname&age=age&stid=stid&faculty=faculty 
--->
+{
+  "Name": Name,
+  "Surname": Surname,
+  "Age": 1,
+  "ID": 1,
+  "Faculty": 4141FFF
+}-->
